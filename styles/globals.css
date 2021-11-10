@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --main-color: rgb(25, 118, 210);
+  --button-add-color: rgb(25, 118, 210);
+  --button-delete-color: #dc3545;
+  --button-edit-color: rgb(25, 118, 210);
+  --button-search-color: rgb(25, 118, 210);
+  --button-reset-color: cornflowerblue;
+  /* --bg-head-table: #e1e1e1; */
+  --bg-head-table: rgb(25, 118, 210);
+  --color-head-table: #fff;
+  --button-active: navy;
+  --button-hover: cornflowerblue;
+}
+
+
+.active, .active:hover {
+  background: var(--button-hover);
+  color: #fff;
+}
+.active svg {
+  color: #fff;
+}
+.react-resizable {
+  width: 100% !important;
+}
